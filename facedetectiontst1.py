@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 font = cv2.FONT_HERSHEY_SIMPLEX
-haar_data  = cv2.CascadeClassifier('C:/Users/akash/OneDrive/Documents/data.xml')		
+haar_data  = cv2.CascadeClassifier('C:/Users/amaan/OneDrive/Documents/data.xml')		
 capture = cv2.VideoCapture(0)
 while True:
 	flag,img = capture.read()
