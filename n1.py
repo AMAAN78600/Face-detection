@@ -1,6 +1,6 @@
 import cv2
 
-face_cascade = cv2.CascadeClassifier('C:/Users/NISHANT PUNDIR/Documents/.xml')
+face_cascade = cv2.CascadeClassifier('C:/Users/amaan/Documents/.xml')
 
 cap = cv2.VideoCapture(0)
 
